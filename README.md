@@ -1,4 +1,4 @@
-#Java Template for the Tech Fest Coding Challenge
+# Java Template for the Tech Fest Coding Challenge
 
 Programmed by Ben Correll from Concordia Lutheran High School
 Last updated 11-24-2019
