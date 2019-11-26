@@ -23,16 +23,21 @@ Put all of your custom code in the loader.java file. I would reccomend using the
 All the challenges I've personally encountered only involve one data type. This type could be either strings, integers, and characters. Because of this, the functions to read from and write to a file only support integers and strings (characters can be obtained from strings). For simplicity, the read functions parse the data into 2D arrays of their respective data type. The arrays are 2D in order for the data to be separated by line and then by space.
 
 Example input:
+
 `
 this is an
+
 example input
 `
 
 Example parsed data:
 
-> {{this, is, an}, {example, input}}
+`
+{{this, is, an}, {example, input}}
+`
 
 `
 [0][0] = this
+
 [1][1] = input
 `
