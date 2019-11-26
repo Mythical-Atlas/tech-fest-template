@@ -24,20 +24,20 @@ All the challenges I've personally encountered only involve one data type. This 
 
 Example input:
 
-`
+```
 this is an
 
 example input
-`
+```
 
 Example parsed data:
 
-`
+```
 {{this, is, an}, {example, input}}
-`
+```
 
-`
+```
 [0][0] = this
 
 [1][1] = input
-`
+```
