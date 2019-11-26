@@ -2,35 +2,11 @@
 
 Programmed by Ben Correll from Concordia Lutheran High School
 
-Last updated 11-24-2019
-
-
-
 Basically, use this if you want to win.
 
+Written for Java 12 (although it likely will work with most other versions)
 
-
-Written for Java 12 (although unless java WILDLY changes after v.12, it will probably work with subsequent versions)
-
-HIGHLY recommend you use the Eclipse IDE for this template. If you're using Dr. Java or Netbeans or something: only God can help you now.
-
-
-
-Write your challenge-specific code in Loader.java.
-
-
-
-This template is mostly just helpful for reading/writing to a file and parsing the input data.
-
-All known challenges use either strings or integers for the input + output so those are the only data types supported.
-
-However, if they include other data types in future Tech Fests, the template allows for expansion.
-
-
-
-If you're using this after 2021 (the year I graduate), you can probably contact me at ben@robertcorrell.com if you need help. I'll be impressed if this template lasts that long, though.
-
-
+I would highly recommend using the Eclipse IDE for Tech Fest. If you're good enough at programming to be at Tech Fest, you're probably good enough to use Eclipse. The template does, however, work with any other IDE (such as Dr. Java or Netbeans).
 
 # Stuff you should know BEFORE Tech Fest
 
@@ -40,8 +16,19 @@ If you're using this after 2021 (the year I graduate), you can probably contact 
 
 If you're reading this on the bus ride to Tech Fest and you don't already know how to do these things, you're pretty much screwed.
 
-
-
 # How to use this template
 
-Put all of your custom code in the loader.java file. I would reccomend using the functions in Simple.java for ease of use, but the more technical (but also more 
+Put all of your custom code in the loader.java file. I would reccomend using the functions in Simple.java for ease of use, but the more technical stuff (if you want to use it), is there as well.
+
+All the challenges I've personally encountered only involve one data type. This type could be either strings, integers, and characters. Because of this, the functions to read from and write to a file only support integers and strings (characters can be obtained from strings). For simplicity, the read functions parse the data into 2D arrays of their respective data type. The arrays are 2D in order for the data to be separated by line and then by space.
+
+Example input:
+this is an
+example input
+
+Example parsed data:
+
+{{this, is, an}, {example, input}}
+
+[0][0] = this
+[1][1] = input
