@@ -30,5 +30,6 @@ Example parsed data:
 
 {{this, is, an}, {example, input}}
 
-[0][0] = this
-[1][1] = input
+> [0][0] = this
+
+> [1][1] = input
