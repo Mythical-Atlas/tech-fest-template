@@ -29,3 +29,19 @@ However, if they include other data types in future Tech Fests, the template all
 
 
 If you're using this after 2021 (the year I graduate), you can probably contact me at ben@robertcorrell.com if you need help. I'll be impressed if this template lasts that long, though.
+
+
+
+# Stuff you should know BEFORE Tech Fest
+
+- basic java syntax
+- loops
+- arrays
+
+If you're reading this on the bus ride to Tech Fest and you don't already know how to do these things, you're pretty much screwed.
+
+
+
+# How to use this template
+
+Put all of your custom code in the loader.java file. I would reccomend using the functions in Simple.java for ease of use, but the more technical (but also more 
