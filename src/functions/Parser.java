@@ -96,20 +96,20 @@ public class Parser {
 	}
 	
 	// converts 2d array of strings to a single string (mainly for writing to file)
-		public static String convertStringsToString(String[][] in) {
-			String out = "";
+	public static String convertStringsToString(String[][] in) {
+		String out = "";
+		
+		for(int i = 0; i < in.length - 1; i++) {
+			String[] temp = in[i];
 			
-			for(int i = 0; i < in.length - 1; i++) {
-				String[] temp = in[i];
-				
-				for(int x = 0; x < temp.length - 1; x++) {out += temp[x] + " ";}
-				out += temp[temp.length - 1] + "\n";
-			}
-			
-			String[] temp = in[in.length - 1];
-			
-			out += temp[temp.length - 1];
-			
-			return(out);
+			for(int x = 0; x < temp.length - 1; x++) {out += temp[x] + " ";}
+			out += temp[temp.length - 1] + "\n";
 		}
+		
+		String[] temp = in[in.length - 1];
+		
+		out += temp[temp.length - 1];
+		
+		return(out);
+	}
 }

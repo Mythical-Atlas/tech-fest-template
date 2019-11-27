@@ -41,3 +41,5 @@ Example parsed data:
 
 [1][1] = input
 ```
+
+There are also a few built-in solutions for common problems at Tech Fest. They reuse a lot of problems each year. The functions for them are in Solutions.java. They aren't the complete solutions themselves (because they'll change), but they're the core component of them. This means most of the work for these problems are already done, you just have to implement them.
